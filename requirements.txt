@@ -1,3 +1,4 @@
+pandas
 telebot
 flask
 python-dotenv
