@@ -77,9 +77,9 @@ def webhook():
             f"✅ Confirmations :\n" + "\n".join(confirmations)
         )
 
-        bot.send_message(-100123456789, message)  # Remplace avec ton ID de chat Telegram
+        bot.send_message(5535423570, message)  # Remplace avec ton ID de chat Telegram
     else:
-        bot.send_message(-100123456789, "❌ Pas assez de confirmations pour valider ce trade.")
+        bot.send_message(5535423570, "❌ Pas assez de confirmations pour valider ce trade.")
 
     return {"status": "success", "message": "Signal traité avec succès."}
 
