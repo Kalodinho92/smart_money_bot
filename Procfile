@@ -1,0 +1,1 @@
+web: python3 smart_money_bot.py
